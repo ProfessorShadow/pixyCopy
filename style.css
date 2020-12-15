@@ -1,0 +1,142 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #202125;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.container{
+    max-width: 70rem;
+    margin: auto;
+
+}
+
+.navbar {
+    padding: 2rem;
+    width: 40%;
+    margin-left: auto;
+    position: relative;
+}
+
+ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;    
+}   
+
+li{
+    
+    list-style-type: none;
+}
+
+li a{
+    font-size: 1rem;
+    padding: 1rem;
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+    padding: 1rem;
+    background-color: rgba(197, 31, 31, 0.137);
+    backface-visibility: hidden;
+}
+
+.active{
+    padding: .75rem 1.5rem;
+    background-color: #4688F1;
+    border-radius: .2rem;
+}
+
+.main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 8rem;
+}
+
+.photo {
+    width: 40%;
+    background: green;
+}
+
+.info{
+    padding: 2rem;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.info h1{
+    margin-bottom: 1rem;
+    font-size: 3rem;
+    color: white;
+    font-weight: bolder;
+}
+
+.info p{
+    /* padding: 2rem; */
+    color: rgba(255, 255, 255, 0.377);
+    font-size: 1rem;
+    letter-spacing: 1px;
+}
+
+.info-text{
+    display: flex;
+    flex-direction: column;
+}
+
+.buttons{
+    margin-top: 2rem;
+}
+.btn-active{
+    padding: .7rem 2rem;
+    background: #4688F1;
+    border: none;
+    color: white;
+    letter-spacing: 1px;
+    font-size: 1rem;
+    border-radius: 3px;
+    margin-right: 1rem;
+}
+
+.btn-active:hover{
+    background: #124FB2;
+    transition: all .1s ease-in;
+    cursor: pointer;
+}
+
+.btn{
+    padding: .7rem 2rem;
+    background: #303137;
+    border: none;
+    color: white;
+    letter-spacing: 1px;
+    font-size: 1rem;
+    border-radius: 3px;
+}
+
+.btn:hover{
+    background: #101113;
+    cursor: pointer;
+    transition: all .1s ease-in;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
